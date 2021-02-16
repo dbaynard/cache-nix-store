@@ -1,6 +1,8 @@
-# Cache install Nix packages
+# Cache nix store
 
 This actions allows caching of installations done via the [Nix package manager](https://nixos.org) to improve workflow execution time. 
+
+Forked from [rikhuijzer/cache-install][orig-url].
 
 [![][tests-img]][tests-url]
 
@@ -64,5 +66,6 @@ in with pkgs; [
 ]
 ```
 
-[tests-img]: https://github.com/nix-actions/cache-install/workflows/test/badge.svg
-[tests-url]: https://github.com/nix-actions/cache-install/actions
+[tests-img]: https://github.com/dbaynard/cache-nix-store/workflows/test/badge.svg
+[tests-url]: https://github.com/dbaynard/cache-nix-store/actions
+[orig-url]: https://github.com/nix-actions/cache-install/actions
