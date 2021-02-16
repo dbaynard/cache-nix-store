@@ -21,6 +21,9 @@
     "@actions/exec": "^1.0.4",
     "@actions/io": "^1.0.1"
   },
+  "scripts": {
+    "build": "ncc build src/main.js --license LICENSE && dos2unix dist/index.js && cp src/core.sh dist/"
+  },
   "devDependencies": {
     "@vercel/ncc": "^0.27.0"
   }
