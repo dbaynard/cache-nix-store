@@ -3,6 +3,8 @@ dependencies:
   '@actions/core': 1.2.6
   '@actions/exec': 1.0.4
   '@actions/io': 1.0.2
+devDependencies:
+  '@vercel/ncc': 0.27.0
 lockfileVersion: 5.2
 packages:
   /@actions/cache/1.0.6:
@@ -195,6 +197,11 @@ packages:
     dev: false
     resolution:
       integrity: sha512-AOqu6bQu5MSWwYvehMXLukFHnupHrpZ8nvgae5Ggie9UwzDR1CCwoXgSSWNZJuyOlCdfdsWMA5F2LlmvyoTv8A==
+  /@vercel/ncc/0.27.0:
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-DllIJQapnU2YwewIhh/4dYesmMQw3h2cFtabECc/zSJHqUbNa0eJuEkRa6DXbZvh1YPWBtYQoPV17NlDpBw1Vw==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -395,3 +402,4 @@ specifiers:
   '@actions/core': ^1.2.5
   '@actions/exec': ^1.0.4
   '@actions/io': ^1.0.1
+  '@vercel/ncc': ^0.27.0
