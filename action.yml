@@ -15,7 +15,7 @@ outputs:
   cache-hit:
     description: 'A boolean value to indicate an exact match was found for the primary key'
 runs:
-  using: 'node14'
+  using: 'node12'
   main: 'dist/index.js'
 branding:
   icon: 'arrow-down'
