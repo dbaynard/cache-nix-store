@@ -1,8 +1,8 @@
-const cache = require('@actions/cache');
-const core = require('@actions/core');
-const exec = require('@actions/exec');
-const fs = require('fs');
-const path = require('path');
+import cache from "@actions/cache";
+import core from "@actions/core";
+import exec from "@actions/exec";
+import fs from "fs";
+import path from "path";
 
 const key = core.getInput('key', { required: true})
 
